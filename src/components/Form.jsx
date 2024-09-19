@@ -48,8 +48,8 @@ const Form = () => {
       return;
     }
     setGetFormData((prevData) => [
-      ...prevData,
       { firstName, lastName, dob, className, section, rollNo },
+      ...prevData,
     ]);
 
     // Increment roll number sequence for the selected class and section
